@@ -53,12 +53,27 @@ body .container .choices button {
   font-weight: 600;
 }
 
-body .container .choices button:hover {
+body .restart {
+  font-size: 1.7rem;
+  margin-top: 50px;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #dfe4ea;
+  user-select: none;
+}
+
+body .container .choices button:hover,
+.restart:hover {
   background: #ffa502;
   transition: 0.5s;
 }
 
-body .container .choices button:active {
+body .container .choices button:active,
+.restart:active {
   transform: scale(0.9);
   transition: transform 0.1s;
 }

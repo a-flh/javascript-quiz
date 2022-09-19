@@ -86,7 +86,7 @@ const display = {
     let endQuizHTML = `
       <h1>Quiz terminé !</h1>
       <h3>Votre score est de : ${quiz.score} / ${quiz.questions.length}</h3>
-      <button onclick="location.reload()">Réessayer</button>
+      <button class="restart" onclick="location.reload()">Réessayer</button>
     `;
     this.elementShown("quiz", endQuizHTML);
   },
